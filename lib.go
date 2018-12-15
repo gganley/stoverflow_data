@@ -8,10 +8,10 @@ import (
 )
 
 type Job struct {
-	company_name string
-	publish_date string
-	location string
-	tags []string
+	CompanyName string
+	PublishDate string
+	Location string
+	Tags []string
 }
 
 func GetData(tags []string) []Job {

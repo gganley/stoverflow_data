@@ -24,4 +24,3 @@ func TestGetData(t *testing.T) {
 		})
 	}
 }
-
